@@ -47,7 +47,7 @@
 <body itemscope="" itemtype="http://schema.org/ScholarlyArticle"> 
 <div id="primarycontent"> 
 <p class="hiddenDiv" itemprop="url"></p>
-<h1 itemprop="name" align="center"><strong>Transferring Common-Sense Knowledge for Object Detection</strong></h1>
+<h1 itemprop="name" align="center"><strong>DOCK: Detecting Objects by transferring Common-sense Knowledge</strong></h1>
 <h5 align="center"><img src="my_files/cs_teaser.png" itemprop="image" alt="teaserImage" width="400"></h5> <p align="justify">
 Using the multiple common-sense cues, can you guess the semantic category of the object corresponding to the orange box? (answer: Toothbrush).
 </p>
@@ -64,7 +64,7 @@ Using the multiple common-sense cues, can you guess the semantic category of the
 
 
 <p style="padding-left: 10px;	padding-right: 10px;">
-We propose the idea of transferring common-sense knowledge from source categories to target categories for scalable object detection. In our setting, the training data for the source categories have bounding box annotations, while those for the target categories only have image-level annotations.  Current state-of-the-art approaches focus on image-level visual or semantic similarity to adapt a detector trained on the source categories to the new target categories.  In contrast, our key idea is to (i) use similarity not at image-level, but rather at region-level, as well as (ii) leverage richer common-sense (based on attribute, spatial, etc.,) to guide the algorithm towards learning the correct detections. We acquire such common-sense cues automatically from readily-available knowledge bases without any extra human effort. On the challenging MS COCO dataset, we find that common-sense knowledge can substantially improves detection performance over existing transfer-learning baselines.
+We present a scalable approach for Detecting Objects by transferring Common-sense Knowledge (DOCK) from source to target categories. In our setting, the training data for the source categories have bounding box annotations, while those for the target categories only have image-level annotations.  Current state-of-the-art approaches focus on image-level visual or semantic similarity to adapt a detector trained on the source categories to the new target categories.  In contrast, our key idea is to (i) use similarity not at the image-level, but rather at the region-level, and (ii) leverage richer common-sense (based on attribute, spatial, etc.) to guide the algorithm towards learning the correct detections. We acquire such common-sense cues automatically from readily-available knowledge bases without any extra human effort. On the challenging MS COCO dataset, we find that common-sense knowledge can substantially improve detection performance over existing transfer-learning baselines.
 </p>
 
 
@@ -81,13 +81,13 @@ We propose the idea of transferring common-sense knowledge from source categorie
 
 <p style="margin-top:10px;">
 
-</p><p style="text-align:left;"><span style="font-size:4px;">&nbsp;<br></span> Krishna Kumar Singh, Santosh Divvala, Ali Farhadi, Yong Jae Lee <br><a href="https://arxiv.org/abs/1804.01077"><b>Transferring Common-Sense Knowledge for Object Detection</b></a> <br>In <i>ECCV 2018</i>
+</p><p style="text-align:left;"><span style="font-size:4px;">&nbsp;<br></span> Krishna Kumar Singh, Santosh Divvala, Ali Farhadi, Yong Jae Lee <br><a href="https://arxiv.org/abs/1804.01077"><b>DOCK: Detecting Objects by transferring Common-sense Knowledge</b></a> <br>In <i>ECCV 2018</i>
    <a href="javascript:togglevis('krishna16')" id="showbib">[Show BibTex]</a><br>
   </p></td>
 </tr></tbody></table>
       <table class="bibtex" style="display:none;margin-top:20px;" id="krishna16"><tbody><tr><td>
           <pre>@inproceedings{singh-eccv2018,
-  title = {Transferring Common-Sense Knowledge for Object Detection},
+  title = {DOCK: Detecting Objects by transferring Common-sense Knowledge},
   author = {Krishna Kumar Singh and Yong Jae Lee},
   booktitle = {European Conference on Computer Vision (ECCV)},
   year = {2018}
